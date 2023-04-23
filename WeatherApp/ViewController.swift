@@ -52,14 +52,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         
         
         DispatchQueue.main.async {
-            let startTime: TimeInterval = 1650572400
+            let currentTime = Date().timeIntervalSince1970
             let formatter = DateFormatter()
             formatter.dateFormat = "dd MMM HH:mm"
-            let dateString = formatter.string(from: Date(timeIntervalSince1970: startTime))
+            let dateString = formatter.string(from: Date(timeIntervalSince1970: currentTime))
             self.TimeLabel.font = UIFont.boldSystemFont(ofSize: 16.0)
             self.TimeLabel.textColor = UIColor.white
             self.TimeLabel.text = dateString
         }
+
+          
+        
         
         
         //JSON - API CODES
