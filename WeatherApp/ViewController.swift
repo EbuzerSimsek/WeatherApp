@@ -143,16 +143,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
                                 if let mainWeather = weather.first?["main"] as? String {
                                     self.conditionLabel.text = mainWeather
                                     if mainWeather == "Clouds"{
-                                        self.imageView.image = UIImage(systemName:"sun.min")!.withTintColor(UIColor.white)
+                                        self.imageView.image = UIImage(systemName:"cloud.fill")!.withTintColor(UIColor.white)
                                     }
                                     else if mainWeather == "Rain"{
-                                        self.imageView.image = UIImage(systemName:"sun.min")!.withTintColor(UIColor.white)
+                                        self.imageView.image = UIImage(systemName:"rain.fill")!.withTintColor(UIColor.white)
                                     }
                                     else if mainWeather == "Clear"{
-                                        self.imageView.image = UIImage(systemName: "sun.min")?.withTintColor(UIColor.white)
+                                        self.imageView.image = UIImage(systemName: "sun.fill")?.withTintColor(UIColor.white)
                                     }
                                     else if mainWeather == "Mist"{
-                                        self.imageView.image = UIImage(systemName: "cloud.fog")?.withTintColor(UIColor.white)
+                                        self.imageView.image = UIImage(systemName: "cloud.fog.fill")?.withTintColor(UIColor.white)
                                     }
                                 }
                             }
