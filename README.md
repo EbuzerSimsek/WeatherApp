@@ -1,6 +1,8 @@
 # WeatherApp
 
-![Simulator Screenshot](https://github.com/user-attachments/assets/c7fb2816-2ec1-458a-bff0-87a6f6911e56))
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/c7fb2816-2ec1-458a-bff0-87a6f6911e56" alt="Simulator Screenshot" width="300" />
+</p>
 
 **WeatherApp** is a simple iOS application built using UIKit that displays current weather conditions for a specific location. The app provides information such as temperature, humidity, wind speed, and more, all presented in a clean and intuitive single-screen interface.
 
